@@ -6,7 +6,7 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
 
 ---
 
-## 📅 Workshop Plan
+## 📅 (●'◡'●)Workshop Plan
 
 ### **Day 1: Wet Lab**
 - DNA QC (Qubit, TapeStation)
