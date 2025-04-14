@@ -14,7 +14,7 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
 - Flow cell QC and library loading (MinKNOW)
 
 ### **Day 2: Bioinformatics**
-- Basecalling with Guppy
+- Basecalling with Guppy/Dorado
 - Quality Control with NanoPlot
 - Read alignment (Minimap2) and variant calling (Medaka or Longshot)
 - Assembly with Flye and visualization with Bandage
