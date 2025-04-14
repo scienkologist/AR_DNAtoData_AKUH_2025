@@ -1,6 +1,5 @@
 # AR_DNAtoData_AKUH_2025
 Describes the journey from DNA to Data through nanopore sequencer 
-![Uploading StandingOvationGIF.gif…]()
 
 # 🧬 Nanopore Sequencing Training (2-Day Workshop)
 
