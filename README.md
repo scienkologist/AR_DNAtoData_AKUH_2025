@@ -10,7 +10,7 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
 ## 📅 (●'◡'●)Workshop Plan
 
 ### **Day 1: Wet Lab**
-- DNA QC (Qubit, TapeStation)
+- DNA QC (Qubit)
 - Library Prep (End-repair, ligation, bead cleanup)
 - Flow cell QC and library loading (MinKNOW)
 
