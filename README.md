@@ -7,9 +7,17 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
 
 ---
 ## **Grouping**
-All the participants are carefully divided into 5 groups making sure that there is a mix of expertise 
--   
-
+-  All the participants are carefully divided into 5 groups making sure that there is a mix of expertise 
+     Group A (Alpha)
+      A1, A2, A3, A4
+     Group B (Bravo)
+      B1, B2, B3, B4 
+     Group C (Charlie)
+     C1, C2, C3, C4
+     Group D (Delta)
+     D1, D2, D3, D4
+     Group E (Eta)
+     E1, E2, E3, E4  
 
 ## 📅 (●'◡'●)Workshop Plan
 
