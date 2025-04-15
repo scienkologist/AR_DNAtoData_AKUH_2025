@@ -6,7 +6,10 @@ Describes the journey from DNA to Data through nanopore sequencer
 This repository contains protocols, scripts, and example data for a 2-day hands-on training using Oxford Nanopore's MinION platform.
 
 ---
-## Grouping 
+## **Grouping**
+All the participants are carefully divided into 5 groups making sure that there is a mix of expertise 
+-   
+
 
 ## 📅 (●'◡'●)Workshop Plan
 
