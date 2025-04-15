@@ -1,6 +1,10 @@
 # AR_DNAtoData_AKUH_2025
 Describes the journey from DNA to Data through nanopore sequencer 
 
+# Link to Slido
+     -     ![image](https://github.com/user-attachments/assets/5d8eb3e2-05cb-483e-a657-4b335513fd97)
+
+
 # 🧬 Nanopore Sequencing Training (2-Day Workshop)
 
 This repository contains protocols, scripts, and example data for a 2-day hands-on training using Oxford Nanopore's MinION platform.
