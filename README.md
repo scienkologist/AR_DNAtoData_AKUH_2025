@@ -2,7 +2,11 @@
 Describes the journey from DNA to Data through nanopore sequencer 
 
 # Link to Slido
-     -     ![image](https://github.com/user-attachments/assets/5d8eb3e2-05cb-483e-a657-4b335513fd97)
+     -    https://wall.sli.do/event/8pgF4QL8c7b15z76sob3YM?section=9013e03e-e548-4679-a6f3-a2327693b053
+     OR
+     -     https://www.slido.com/
+               -       ID: **1676314**
+               - Passcode: **dna2data**
 
 
 # 🧬 Nanopore Sequencing Training (2-Day Workshop)
