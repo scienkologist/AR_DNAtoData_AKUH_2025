@@ -2,7 +2,7 @@
 Describes the journey from DNA to Data through nanopore sequencer 
 
 # Link to Slido
-         https://wall.sli.do/event/8pgF4QL8c7b15z76sob3YM?section=9013e03e-e548-4679-a6f3-a2327693b053
+https://wall.sli.do/event/8pgF4QL8c7b15z76sob3YM?section=9013e03e-e548-4679-a6f3-a2327693b053
      OR
      -     https://www.slido.com/
                -       ID: 1676314
