@@ -35,20 +35,21 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
 
 # Rapid Barcoding Sequencing Protocol using Oxford Nanopore (MinION)
 
-This protocol outlines the steps for performing multiplexed sequencing using the Oxford Nanopore **Rapid Barcoding Kit (RBK114.24 or equivalent)** on a **MinION** device.
+This protocol outlines the steps for performing multiplexed sequencing using the Oxford Nanopore **Rapid Barcoding Kit (e.g., SQK-RBK114.24)** on a **MinION** device.
 
 ---
 
 ## 🧪 Materials
 
-- Rapid Barcoding Kit (e.g., SQK-RBK114.24)
+- Rapid Barcoding Kit (SQK-RBK114.24)
 - DNA samples (50–100 ng per sample)
-- Magnetic beads (e.g., AMPure XP)
-- Nuclease-free water
-- Pipettes and filter tips
+- Magnetic beads (e.g., AMPure XP or equivalent)
+- Freshly prepared 70% ethanol
+- Elution Buffer (EB) or nuclease-free water
+- Nuclease-free tubes
 - Thermocycler or heat block
 - MinION device
-- Flow Cell 
+- Flow Cell (FLO-MIN106D - R9.4.1)
 - MinKNOW software
 
 ---
@@ -57,26 +58,43 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 
 ### A. Barcoding Individual Samples
 
-1. **Mix for each sample**:
-    - 10.0 µL DNA (50–100 ng)
+1. For each sample, mix:
+    - 2.5 µL genomic DNA (50–100 ng)
     - 2.5 µL Rapid Barcode (RBxx)
 
-2. **Incubate**:
+2. Incubate:
     - 30°C for 5 minutes
     - 80°C for 2 minutes (heat inactivation)
 
-3. **Pool** all barcoded samples together (equal volumes).
+3. Pool all barcoded samples into a single tube (equal volumes from each sample).
 
 ---
 
-### B. Adapter Ligation
+### B. Cleanup After Pooling (Bead Purification)
 
-1. **To the pooled library**, add:
-    - 1 µL Rapid Adapter (RAP)
+1. Add **1.2x volume** magnetic beads to the pooled barcoded DNA.
 
-2. **Incubate** at room temperature for 5 minutes.
+2. Mix thoroughly by pipetting and incubate for **5 minutes** at room temperature.
 
-> ⚠️ No purification or bead cleanup is required at this stage.
+3. Place on a magnetic rack for **5 minutes** or until the solution clears.
+
+4. Carefully remove and discard the supernatant.
+
+5. Wash the beads **twice** with **200 µL of 70% ethanol**, letting each sit for 30 seconds. Do not disturb the pellet.
+
+6. Air dry the beads for **2 minutes**, ensuring not to overdry.
+
+7. Elute the DNA in **10 µL Elution Buffer (EB)** or nuclease-free water.
+
+---
+
+### C. Adapter Ligation
+
+1. Add **1 µL Rapid Adapter (RAP)** to the purified pooled library.
+
+2. Incubate at room temperature for **5 minutes**.
+
+> ⚠️ No further purification required after adapter ligation.
 
 ---
 
@@ -84,105 +102,77 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 
 ### A. Software
 
-- Open **MinKNOW** and ensure it's updated.
-- Connect and detect the MinION device.
+- Launch **MinKNOW** and confirm it's up-to-date.
+- Connect the MinION device via USB and ensure detection.
 
 ---
 
 ### B. Flow Cell Check & Priming
 
-1. **Check the flow cell** using MinKNOW.
-    - Ensure >800 active pores (ideal).
-    
-2. **Prepare priming mix**:
+1. Run a **flow cell check** in MinKNOW to assess pore availability.
+   - Aim for **>800 active pores** for optimal output.
+
+2. Prepare the **priming mix**:
     - 30 µL Flush Tether (FLT)
     - 570 µL Flush Buffer (FB)
 
-3. **Inject ~800 µL** slowly into the **priming port**.
-
-> Keep the sample loading port closed during priming.
+3. Inject **800 µL** into the **priming port** slowly.
+   - Keep the sample port closed during this step.
 
 ---
 
 ## 3. 🧬 Library Loading
 
-1. **Prepare loading mix**:
+1. Prepare the final loading mix:
     - 37.5 µL Sequencing Buffer (SQB)
-    - 25.5 µL Loading Beads (LB) (mix immediately before use)
-    - 12 µL DNA library
+    - 25.5 µL Loading Beads (LB) — mix immediately before use
+    - 12 µL purified and adapter-ligated DNA
 
-2. **Load 75 µL** into the sample loading port slowly.
-
-> Avoid introducing air bubbles.
+2. Load **75 µL** into the sample port **slowly**, avoiding air bubbles.
 
 ---
 
 ## 4. 🚀 Starting the Run
 
 1. In MinKNOW:
-    - Select the correct **flow cell**.
-    - Choose **"New Experiment"**.
-    - Select **Rapid Barcoding Kit protocol**.
-    - Assign barcodes and sample names.
-    - Enable **basecalling** and **demultiplexing** (if needed).
+    - Choose the flow cell and click **"New Experiment"**.
+    - Select the appropriate **Rapid Barcoding Kit protocol**.
+    - Assign barcodes and sample identifiers.
+    - Enable **basecalling**, **live QC**, and optional **demultiplexing**.
 
-2. Click **Start Run** and monitor in real-time.
+2. Click **Start Run** and monitor progress.
 
 ---
 
 ## 5. 📁 Output and Post-run
 
-- Basecalled FastQ files saved to specified directory.
-- Demultiplexed reads will be placed in barcode folders.
-- Use tools like **Guppy**, **NanoPlot**, or **EPI2ME** for downstream analysis.
-- After sequencing, you may perform **flow cell wash** for reuse.
+- Basecalled FastQ files are saved to your selected directory.
+- Demultiplexed reads are sorted by barcode.
+- Use downstream tools like:
+    - **Guppy**
+    - **NanoPlot**
+    - **EPI2ME**
+    - **Flye**, **Medaka**, etc. for analysis
+
+> ✅ You may reuse the flow cell after a run by performing a **Flow Cell Wash (EXP-WSH004)**.
 
 ---
 
 ## 📌 Notes
 
-- Ensure all reagents are thawed and mixed properly before use.
-- Keep Loading Beads gently mixed and use immediately after preparation.
-- Store unused barcoded libraries at -20°C for short-term.
+- Avoid over-drying beads during the cleanup step.
+- Vortex and mix Loading Beads immediately before pipetting.
+- Store any unused library at -20°C.
+- Barcoding works best with 50–100 ng input per sample.
 
 ---
 
 ## 📎 References
 
-- [Oxford Nanopore RBK114.24 Kit Protocol](https://nanoporetech.com)
-- [MinKNOW User Guide](https://community.nanoporetech.com)
+- [Oxford Nanopore Technologies](https://nanoporetech.com/)
+- [RBK114.24 Kit Protocol PDF (ONT Portal)](https://community.nanoporetech.com/)
+- [MinKNOW User Guide](https://community.nanoporetech.com/)
 
 ---
 
 
-### **Day 2: Bioinformatics**
-- Basecalling with Guppy/Dorado
-- Quality Control with NanoPlot
-- Read alignment (Minimap2) and variant calling (Medaka or Longshot)
-- Assembly with Flye and visualization with Bandage
-
----
-
-## 📂 Folder Contents
-
-| Folder/File | Description |
-|-------------|-------------|
-| `scripts/` | Bash scripts for basecalling, mapping, and assembly |
-| `data/` | Example `.fastq.gz` for practice |
-| `env/requirements.txt` | Conda environment dependencies |
-| `Day1_WetLab_Protocol.pdf` | Step-by-step library prep guide |
-| `Day2_Bioinformatics_Workflow.pdf` | Full command-line guide for analysis |
-| `cheat_sheet.md` | One-page command and tool reference |
-
----
-
-## 💻 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/nanopore-training.git
-cd nanopore-training
-
-# Create environment (using micromamba or conda)
-mamba create -n nanopore_env --file env/requirements.txt
-mamba activate nanopore_env
