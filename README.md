@@ -110,7 +110,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 ### B. Flow Cell Check & Priming
 
 1. Run a **flow cell check** in MinKNOW to assess pore availability.
-   - Aim for **>800 active pores** for optimal output.
+   - Aim for **>60 active pores** for optimal output 
 
 2. Prepare the **priming mix**:
     - 30 µL Flush Tether (FLT)
