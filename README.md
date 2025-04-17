@@ -48,7 +48,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 - Pipettes and filter tips
 - Thermocycler or heat block
 - MinION device
-- Flow Cell (R9.4.1 - FLO-MIN106D)
+- Flow Cell 
 - MinKNOW software
 
 ---
