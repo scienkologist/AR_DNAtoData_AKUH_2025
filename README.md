@@ -128,7 +128,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
     - 5.5 µL Loading Beads (LB) — mix immediately before use
     - 8 µL purified and adapter-ligated DNA
 
-2. Load **75 µL** into the sample port **slowly**, avoiding air bubbles.
+2. Load **25 µL** into the sample port **slowly**, avoiding air bubbles.
 
 ---
 
