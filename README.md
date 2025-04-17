@@ -59,7 +59,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 ### A. Barcoding Individual Samples
 
 1. For each sample, mix:
-    - 2.5 µL genomic DNA (50–100 ng)
+    - 10.0 µL genomic DNA (50–100 ng)
     - 2.5 µL Rapid Barcode (RBxx)
 
 2. Incubate:
