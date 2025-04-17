@@ -124,9 +124,9 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 ## 3. 🧬 Library Loading
 
 1. Prepare the final loading mix:
-    - 37.5 µL Sequencing Buffer (SQB)
-    - 25.5 µL Loading Beads (LB) — mix immediately before use
-    - 12 µL purified and adapter-ligated DNA
+    - 11.5 µL Sequencing Buffer (SQB)
+    - 5.5 µL Loading Beads (LB) — mix immediately before use
+    - 8 µL purified and adapter-ligated DNA
 
 2. Load **75 µL** into the sample port **slowly**, avoiding air bubbles.
 
