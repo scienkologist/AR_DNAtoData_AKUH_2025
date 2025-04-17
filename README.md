@@ -49,7 +49,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 - Nuclease-free tubes
 - Thermocycler or heat block
 - MinION device
-- Flow Cell (FLO-MIN106D - R9.4.1)
+- Flow Cells
 - MinKNOW software
 
 ---
