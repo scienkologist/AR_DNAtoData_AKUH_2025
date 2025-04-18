@@ -149,10 +149,11 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 - Basecalled FastQ files are saved to your selected directory.
 - Demultiplexed reads are sorted by barcode.
 - Use downstream tools like:
-    - **Guppy**
+    - **Dorado** 
     - **NanoPlot**
     - **EPI2ME**
     - **Flye**, **Medaka**, etc. for analysis
+          # *Links for the tools*
 
 > ✅ You may reuse the flow cell after a run by performing a **Flow Cell Wash (EXP-WSH004)**.
 
