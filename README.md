@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f6ffa7e7-5304-4596-b768-59b626e67be2)# AR_DNAtoData_AKUH_2025
+# AR_DNAtoData_AKUH_2025
 Describes the journey from DNA to Data through nanopore sequencer 
 
 # Link to Slido
