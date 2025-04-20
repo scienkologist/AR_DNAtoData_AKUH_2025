@@ -42,7 +42,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 ## 🧪 Materials
 
 - Rapid Barcoding Kit (SQK-RBK114.24)
-- DNA samples (50–100 ng per sample)
+- DNA samples (10–100 ng per sample)
 - Magnetic beads (e.g., AMPure XP or equivalent)
 - Freshly prepared 70% ethanol
 - Elution Buffer (EB) or nuclease-free water
@@ -59,7 +59,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 ### A. Barcoding Individual Samples
 
 1. For each sample, mix:
-    - 10.0 µL genomic DNA (50–100 ng)
+    - 10.0 µL genomic DNA (10–50 ng)
     - 2.5 µL Rapid Barcode (RBxx)
 
 2. Incubate:
