@@ -1,5 +1,5 @@
 # AR_DNAtoData_AKUH_2025
-Describes the journey from DNA to Data through nanopore sequencer 
+Describes the steps of journey from DNA to Data through nanopore sequencer conducted at Aga Khan University from 21-22nd April_2025
 
 # Link to Slido
 https://wall.sli.do/event/8pgF4QL8c7b15z76sob3YM?section=9013e03e-e548-4679-a6f3-a2327693b053
