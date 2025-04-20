@@ -45,7 +45,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 - Rapid Barcoding Kit (SQK-RBK114.24)
 - DNA samples (10–100 ng per sample)
 - Magnetic beads (e.g., AMPure XP or equivalent)
-- Freshly prepared 70% ethanol
+- Freshly prepared 80% ethanol
 - Elution Buffer (EB) or nuclease-free water
 - Nuclease-free tubes
 - Thermocycler or heat block
