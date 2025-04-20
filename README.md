@@ -112,24 +112,52 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 
 1. Run a **flow cell check** in MinKNOW to assess pore availability.
    - Aim for **>60 active pores** for optimal output 
+# Flongle Flow Cell Library Loading Workflow
 
-2. Prepare the **priming mix**:
-    - 30 µL Flush Tether (FLT)
-    - 570 µL Flush Buffer (FB)
-
-3. Inject **800 µL** into the **priming port** slowly.
-   - Keep the sample port closed during this step.
+This document outlines the workflow for loading a prepared sequencing library onto a Flongle flow cell using an Oxford Nanopore MinION device.
 
 ---
 
-## 3. 🧬 Library Loading
+## 🔬 Flongle Flow Cell Library Loading Workflow
 
-1. Prepare the final loading mix:
-    - 11.5 µL Sequencing Buffer (SQB)
-    - 5.5 µL Loading Beads (LB) — mix immediately before use
-    - 8 µL purified and adapter-ligated DNA
+### 1. Prepare the Flow Cell
+- **Check flow cell** status using **MinKNOW** software.
+- **Prime the flow cell**:
+  - Remove the Flongle flow cell from the packaging and insert it into the adapter and then into the MinION.
+  - Open the priming port and add **30 μL of flush buffer (FB)** from the **Flush Kit**.
+  - Wait for **5 minutes** to equilibrate.
 
-2. Load **25 µL** into the sample port **slowly**, avoiding air bubbles.
+### 2. Prepare the Library
+- Thaw and mix your library and sequencing buffer components (e.g., Sequencing Buffer, Loading Beads, and DNA library).
+- In a low-bind tube, prepare the **final loading mix** as follows:
+
+```text
+- Sequencing Buffer (SB): 25.5 μL
+- Loading Beads (LB): 9.5 μL (mix gently before use)
+- DNA Library: 15 μL
+- Total: 50 μL
+```
+
+### 3. Load the Library
+- Gently mix the loading mix by pipetting.
+- Open the sample port on the Flongle.
+- Load **30–50 μL** of the library mix into the flow cell **slowly** via the sample port.
+
+### 4. Start Sequencing
+- In **MinKNOW**, select the appropriate **sequencing protocol** and **kit configuration**.
+- Start the sequencing run and monitor pore activity.
+
+---
+
+## 🧪 Tips for Success
+- **Handle beads carefully** – do **not vortex** loading beads; pipette gently.
+- **Avoid bubbles** during loading – they can block pores.
+- **Use freshly prepared** library mix and keep components on ice until use.
+
+---
+
+> For educational use in sequencing workshops and lab SOP documentation.
+
 
 ---
 
