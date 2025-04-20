@@ -1,4 +1,4 @@
-# AR_DNAtoData_AKUH_2025
+![image](https://github.com/user-attachments/assets/f6ffa7e7-5304-4596-b768-59b626e67be2)# AR_DNAtoData_AKUH_2025
 Describes the journey from DNA to Data through nanopore sequencer 
 
 # Link to Slido
@@ -18,16 +18,17 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
 ## Grouping
 
 ### All the participants are carefully divided into 5 groups making sure that there is a mix of expertise 
-     -Group A (Alpha)
-      A1, A2, A3, A4
-     -Group B (Bravo)
-      B1, B2, B3, B4 
-     -Group C (Charlie)
-     C1, C2, C3, C4
-     -Group D (Delta)
-     D1, D2, D3, D4
-     -Group E (Eta)
-     E1, E2, E3, E4  
+     -Group A 
+      AIZU|| AA UoS|| GZAKU|| MBICCBS
+     -Group B 
+      ARKSIUT|| RKUoK|| WSAKU|| EFLUMHS 
+     -Group C 
+     FFJUW|| SSHUM|| ZHDUHS|| SGAKU
+     -Group D 
+     AKUoK|| QAANIBD|| UHNICH|| KTAKU
+     -Group E 
+     UKHU|| ASSHU|| MNAKU|| NSAKU
+     
 
 ## 📅 (●'◡'●)Workshop Plan
 
