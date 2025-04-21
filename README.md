@@ -133,16 +133,16 @@ This document outlines the workflow for loading a prepared sequencing library on
 - In a low-bind tube, prepare the **final loading mix** as follows:
 
 ```text
-- Sequencing Buffer (SB): 25.5 μL
-- Loading Beads (LB): 9.5 μL (mix gently before use)
-- DNA Library: 15 μL
-- Total: 50 μL
+- Sequencing Buffer (SB): 15.0 μL
+- Loading Beads (LB): 10.0 μL (mix gently before use)
+- DNA Library: 5-7 μL
+- Total: 30-32 μL
 ```
 
 ### 3. Load the Library
 - Gently mix the loading mix by pipetting.
 - Open the sample port on the Flongle.
-- Load **30–50 μL** of the library mix into the flow cell **slowly** via the sample port.
+- Load **30 μL** of the library mix into the flow cell **slowly** via the sample port.
 
 ### 4. Start Sequencing
 - In **MinKNOW**, select the appropriate **sequencing protocol** and **kit configuration**.
