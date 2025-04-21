@@ -85,9 +85,10 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 
 6. Air dry the beads for **2 minutes**, ensuring not to overdry.
 
-7. Elute the DNA in **10 µL Elution Buffer (EB)** or nuclease-free water.
-
+7. Elute the DNA in **15 µL Elution Buffer (EB)** or nuclease-free water.
+    * Quantify 1uL of eluted DNA using the Qubit-Fluorometer*
 ---
+    
 
 ### C. Adapter Ligation
 
