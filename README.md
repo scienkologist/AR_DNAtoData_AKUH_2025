@@ -64,7 +64,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
     - 2.5 µL Rapid Barcode (RBxx)
 
 2. Incubate:
-    - 30°C for 5 minutes
+    - 30°C for 2 minutes
     - 80°C for 2 minutes (heat inactivation)
 
 3. Pool all barcoded samples into a single tube (equal volumes from each sample).
@@ -73,7 +73,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 
 ### B. Cleanup After Pooling (Bead Purification)
 
-1. Add **1.2x volume** magnetic beads to the pooled barcoded DNA.
+1. Add **1.0x volume** magnetic beads to the pooled barcoded DNA.
 
 2. Mix thoroughly by pipetting and incubate for **5 minutes** at room temperature.
 
@@ -81,7 +81,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 
 4. Carefully remove and discard the supernatant.
 
-5. Wash the beads **twice** with **200 µL of 70% ethanol**, letting each sit for 30 seconds. Do not disturb the pellet.
+5. Wash the beads **twice** with **200 µL of 80% ethanol**, letting each sit for 30 seconds. Do not disturb the pellet.
 
 6. Air dry the beads for **2 minutes**, ensuring not to overdry.
 
