@@ -61,7 +61,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 
 1. For each sample, mix:
     - 10.0 µL genomic DNA (10–50 ng)
-    - 2.5 µL Rapid Barcode (RBxx)
+    - 1.5 µL Rapid Barcode (RBxx)
 
 2. Incubate:
     - 30°C for 2 minutes
