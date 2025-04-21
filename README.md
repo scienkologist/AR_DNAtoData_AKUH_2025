@@ -112,7 +112,7 @@ This protocol outlines the steps for performing multiplexed sequencing using the
 ### B. Flow Cell Check & Priming
 
 1. Run a **flow cell check** in MinKNOW to assess pore availability.
-   - Aim for **>60 active pores** for optimal output 
+   - Count how many  **active pores present** for optimal output 
 # Flongle Flow Cell Library Loading Workflow
 
 This document outlines the workflow for loading a prepared sequencing library onto a Flongle flow cell using an Oxford Nanopore MinION device.
