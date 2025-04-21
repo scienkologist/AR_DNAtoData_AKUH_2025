@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5e61353c-ca2e-430b-901b-7291b52ab654)# AR_DNAtoData_AKUH_2025
+# AR_DNAtoData_AKUH_2025
 Describes the steps of journey from DNA to Data through nanopore sequencer conducted at Aga Khan University from 21-22nd April_2025
 
 # Link to Slido
