@@ -19,7 +19,7 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
 
 ### All the participants are carefully divided into 5 groups  
      -Group A 
-      AIZU|| AA UoS|| GZAKU|| MBICCBS
+      AIZU|| SZ AKU|| GZAKU|| MBICCBS
      -Group B 
       ARKSIUT|| RKUoK|| WSAKU|| EFLUMHS 
      -Group C 
