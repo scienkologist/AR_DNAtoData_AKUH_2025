@@ -128,7 +128,7 @@ This document outlines the workflow for loading a prepared sequencing library on
   - Open the priming port and add **30 μL of flush buffer (FB)** from the **Flush Kit**.
   - Wait for **5 minutes** to equilibrate.
 
-### 2. Prepare the Library
+### 2. Prepare the Loading Library 
 - Thaw and mix your library and sequencing buffer components (e.g., Sequencing Buffer, Loading Beads, and DNA library).
 - In a low-bind tube, prepare the **final loading mix** as follows:
 
@@ -168,7 +168,7 @@ This document outlines the workflow for loading a prepared sequencing library on
     - Choose the flow cell and click **"New Experiment"**.
     - Select the appropriate **Rapid Barcoding Kit protocol**.
     - Assign barcodes and sample identifiers.
-    - Enable **basecalling**, **live QC**, and optional **demultiplexing**.
+    - Enable **basecalling**, and optional **demultiplexing**.
 
 2. Click **Start Run** and monitor progress.
 
