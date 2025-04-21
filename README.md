@@ -1,4 +1,4 @@
-# AR_DNAtoData_AKUH_2025
+![image](https://github.com/user-attachments/assets/5e61353c-ca2e-430b-901b-7291b52ab654)# AR_DNAtoData_AKUH_2025
 Describes the steps of journey from DNA to Data through nanopore sequencer conducted at Aga Khan University from 21-22nd April_2025
 
 # Link to Slido
@@ -23,9 +23,9 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
      -Group B 
       ARKSIUT|| RKUoK|| WSAKU|| EFLUMHS 
      -Group C 
-     FFJUW|| SSHUM|| ZHDUHS|| SGAKU
+     FFJUW|| QAANIBD|| ZHDUHS|| SGAKU
      -Group D 
-     AKUoK|| QAANIBD|| UHNICH|| KTAKU
+     AKUoK|| MGDUHS|| UHNICH|| KTAKU
      -Group E 
      UKHU|| ASSHU|| MNAKU|| NSAKU
      
