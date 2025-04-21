@@ -23,7 +23,7 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
      -Group B 
       ARKSIUT|| RKUoK|| WSAKU|| EFLUMHS 
      -Group C 
-     FFJUW|| QAANIBD|| ZHDUHS|| SGAKU
+     FFJUW|| MJAKU|| ZHDUHS|| SGAKU
      -Group D 
      AKUoK|| MGDUHS|| UHNICH|| KTAKU
      -Group E 
