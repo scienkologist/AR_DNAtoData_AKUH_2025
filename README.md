@@ -184,7 +184,7 @@ This document outlines the workflow for loading a prepared sequencing library on
     - **Dorado** https://nanoporetech.com/software/other/dorado
       - Command for dorado after extraction:
   
-            <pre> ```{Filepath of extracted dorado} \bin\ dorado.exe basecaller --device cpu --models-directory .\models\ .\models\dna_r9.4.1_e8_sup@v3.6\ .\pod5\ > out2.fastq``` <pre>
+            <> ```{Filepath of extracted dorado} \bin\ dorado.exe basecaller --device cpu --models-directory .\models\ .\models\dna_r9.4.1_e8_sup@v3.6\ .\pod5\ > out2.fastq``` <>
 
 ![image](https://github.com/user-attachments/assets/8097cf02-ea02-476a-b063-de0e04b116d1)
  
