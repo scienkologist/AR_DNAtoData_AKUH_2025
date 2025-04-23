@@ -179,8 +179,11 @@ This document outlines the workflow for loading a prepared sequencing library on
 - Basecalled FastQ files are saved to your selected directory.
 - Demultiplexed reads are sorted by barcode.
 - Use downstream tools like:
+     - **NanoPlot** https://bioinformatics.uni-muenster.de/tools/nanopipe2/index.hbi?
+    - **EPI2ME** 
+    - **Flye**, **Medaka**, etc. for analysis
     - **Dorado**
-    - Command to be used:
+      Command for dorado after extraction:
   
 {Filepath of extracted dorado} \bin\ dorado.exe basecaller --device cpu --models-directory .\models\ .\models\dna_r9.4.1_e8_sup@v3.6\ .\pod5\ > out2.fastq
 
@@ -188,14 +191,6 @@ This document outlines the workflow for loading a prepared sequencing library on
  
 
 
-    - **NanoPlot**
-    - **EPI2ME**
-    - **Flye**, **Medaka**, etc. for analysis
-          # *Links for the tools*
-
-> ✅ You may reuse the flow cell after a run by performing a **Flow Cell Wash (EXP-WSH004)**.
-
----
 
 ## 📌 Notes
 
