@@ -180,12 +180,11 @@ This document outlines the workflow for loading a prepared sequencing library on
 - Demultiplexed reads are sorted by barcode.
 - Use downstream tools like:
      - **NanoPlot** https://bioinformatics.uni-muenster.de/tools/nanopipe2/index.hbi?
-    - **EPI2ME** 
-    - **Flye**, **Medaka**, etc. for analysis
-    - **Dorado**
+    - **EPI2ME** https://epi2me.nanoporetech.com/downloads/
+    - **Dorado** https://nanoporetech.com/software/other/dorado
       Command for dorado after extraction:
   
-{Filepath of extracted dorado} \bin\ dorado.exe basecaller --device cpu --models-directory .\models\ .\models\dna_r9.4.1_e8_sup@v3.6\ .\pod5\ > out2.fastq
+```{Filepath of extracted dorado} \bin\ dorado.exe basecaller --device cpu --models-directory .\models\ .\models\dna_r9.4.1_e8_sup@v3.6\ .\pod5\ > out2.fastq```
 
 ![image](https://github.com/user-attachments/assets/8097cf02-ea02-476a-b063-de0e04b116d1)
  
