@@ -27,7 +27,7 @@ This repository contains protocols, scripts, and example data for a 2-day hands-
      -Group D 
      AKUoK|| MGDUHS|| UHNICH|| KTAKU
      -Group E 
-     UKHU|| ASSHU|| MNAKU|| NSAKU
+     UKHU|| MNAKU|| NSAKU
      
 
 ## 📅 (●'◡'●)Workshop Plan
